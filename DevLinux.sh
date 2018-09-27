@@ -14,6 +14,8 @@ echo "Installing paper-icon-theme ..."
 	 apt-get update
 	 apt-get install paper-icon-theme
 echo "Installing curl ..."
+	sudo apt-get update
+	sudo apt install curl
 
 echo "Installing NodeJs ..."
 	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
