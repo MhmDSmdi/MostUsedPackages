@@ -21,6 +21,8 @@ echo "Intalling Open Connetct ..."
 	sudo apt-get install openconnect
 echo "Installing Spotify ..."
 	snap install spotify
+echo "Installing UnRar ..."
+	sudo apt-get install unrar
 echo "Installing NodeJs ..."
 	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 	apt-get install -y nodejs
